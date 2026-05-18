@@ -1,0 +1,62 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title>HireHub project hero image</title>
+  <desc>Abstract hiring platform illustration with network nodes and a modern logo for HireHub.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1f40" />
+      <stop offset="100%" stop-color="#1f3d78" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#37c6ff" />
+      <stop offset="100%" stop-color="#8a5cff" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bgGradient)" />
+  <g opacity="0.15" transform="translate(150 100)">
+    <circle cx="110" cy="120" r="80" fill="#ffffff" />
+    <circle cx="270" cy="320" r="50" fill="#8a5cff" />
+    <circle cx="80" cy="420" r="30" fill="#37c6ff" />
+    <circle cx="450" cy="170" r="90" fill="#ffffff" />
+  </g>
+  <g stroke="#ffffff" stroke-opacity="0.4" stroke-width="2" fill="none">
+    <path d="M320 120 C380 60, 520 80, 560 180" />
+    <path d="M580 210 C610 260, 700 240, 760 310" />
+    <path d="M720 90 C820 20, 940 60, 980 150" />
+    <path d="M240 380 C340 320, 410 420, 520 380" />
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="340" cy="150" r="18" fill="#37c6ff" />
+    <circle cx="510" cy="190" r="24" fill="#8a5cff" />
+    <circle cx="730" cy="110" r="16" fill="#ffffff" />
+    <circle cx="860" cy="270" r="22" fill="#37c6ff" />
+    <circle cx="980" cy="170" r="14" fill="#8a5cff" />
+  </g>
+  <g stroke="#ffffff" stroke-opacity="0.6" stroke-width="3" fill="none">
+    <line x1="340" y1="150" x2="510" y2="190" />
+    <line x1="510" y1="190" x2="730" y2="110" />
+    <line x1="730" y1="110" x2="860" y2="270" />
+    <line x1="860" y1="270" x2="980" y2="170" />
+  </g>
+  <rect x="140" y="360" width="340" height="170" rx="24" fill="#121f41" opacity="0.92" />
+  <rect x="140" y="360" width="340" height="60" rx="20" fill="url(#accentGradient)" />
+  <text x="170" y="410" fill="#ffffff" font-family="Inter, sans-serif" font-size="42" font-weight="700">HireHub</text>
+  <text x="170" y="455" fill="#d7e4ff" font-family="Inter, sans-serif" font-size="18" letter-spacing="0.35em">CONNECT. HIRE. GROW.</text>
+  <text x="170" y="500" fill="#b2c2e8" font-family="Inter, sans-serif" font-size="16" width="300">A modern hiring platform to connect teams and talent with intelligent workflow and onboarding.</text>
+  <g transform="translate(560 320)">
+    <rect x="0" y="0" width="240" height="160" rx="22" fill="#192c58" opacity="0.92" />
+    <circle cx="62" cy="56" r="24" fill="#37c6ff" />
+    <circle cx="140" cy="52" r="16" fill="#8a5cff" />
+    <circle cx="95" cy="112" r="18" fill="#ffffff" opacity="0.9" />
+    <line x1="62" y1="80" x2="95" y2="94" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+    <line x1="95" y1="94" x2="140" y2="68" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  </g>
+  <text x="620" y="230" fill="#ffffff" font-family="Inter, sans-serif" font-size="28" font-weight="600">Smart hiring workflow</text>
+  <text x="620" y="265" fill="#b2c2e8" font-family="Inter, sans-serif" font-size="16">Streamline candidate matching, interviews, and onboarding.</text>
+</svg>
