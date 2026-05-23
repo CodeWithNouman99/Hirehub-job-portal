@@ -134,7 +134,7 @@ const Navbar = () => {
             </SignUpButton>
           </SignedOut>
 
-          {/* agr me login ho to buttons hsow nai honge but me chahta ho k buttons b show ho the ye code */}
+          {/* agr me login ho to buttons show nai honge but me chahta ho k buttons b show ho the ye code */}
           <SignedIn>
             <UserButton />
           </SignedIn>
